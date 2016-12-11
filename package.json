@@ -1,0 +1,36 @@
+{
+  "name": "typescript-advanced-datepicker",
+  "version": "0.0.1",
+  "description": "Training advanced datepicker project written with typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack",
+    "dev": "webpack-dev-server --content-base \"build/\" --colors --inline --port=8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ButinVladimir/Training-Typescript-Advanced-Datepicker.git"
+  },
+  "author": "Vladimir Butin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ButinVladimir/Training-Typescript-Advanced-Datepicker/issues"
+  },
+  "homepage": "https://github.com/ButinVladimir/Training-Typescript-Advanced-Datepicker#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.34",
+    "awesome-typescript-loader": "^3.0.0-beta.10",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.24.1",
+    "jquery": "^3.1.1",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.13.1",
+    "tslint-loader": "^3.3.0",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
